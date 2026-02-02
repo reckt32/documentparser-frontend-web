@@ -93531,7 +93531,7 @@ A.XR.prototype={
 ake(){var s,r=this
 A.bo("[MainAppScreen] Building screens with _questionnaireId: "+A.k(r.e)+", _prefillData: "+A.k(r.f))
 s=r.e
-return A.b([new A.Oi(new A.avj(r),null),new A.Fy(s,new A.avk(r),null),new A.D7("http://localhost:5000",s,new A.avl(r),new A.avm(),r.f,null)],t.p)},
+return A.b([new A.Oi(new A.avj(r),null),new A.Fy(s,new A.avk(r),null),new A.D7("https://docparser-app.azurewebsites.net",s,new A.avl(r),new A.avm(),r.f,null)],t.p)},
 GZ(a){this.J(new A.avf(this,a))},
 I(a){var s=null,r=A.aY("Document",s,s,s,A.M(a).p3.gee(),s,s),q=A.M(a).p3.gee()
 return A.DT(A.aJ2(s,B.Q,s,B.i,B.ph,A.dd(A.b([r,B.AL,A.aY("Parser",s,s,s,q==null?s:q.bc(B.ah),s,s)],t.p),B.D,B.y,B.B,0)),B.bP,this.ake()[this.d],new A.dY(new A.avs(this),s))},
@@ -94842,7 +94842,7 @@ if(i==null){q=new A.js(!1,null,"Not authenticated")
 s=1
 break}p=5
 s=8
-return A.B(A.a3x(A.dM("http://localhost:5000"+a,0,null),B.az.m2(b),i),$async$t0)
+return A.B(A.a3x(A.dM("https://docparser-app.azurewebsites.net"+a,0,null),B.az.m2(b),i),$async$t0)
 case 8:m=d
 k=n.aep(m)
 q=k
@@ -94926,7 +94926,7 @@ p=4
 s=7
 return A.B(m.c.a.j3(!1),$async$uY)
 case 7:m.e=a0
-i=A.dM("http://localhost:5000/auth/verify",0,null)
+i=A.dM("https://docparser-app.azurewebsites.net/auth/verify",0,null)
 h=t.N
 g=A.Z(["Content-Type","application/json"],h,h)
 s=8
@@ -95156,7 +95156,7 @@ var $async$yM=A.A(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:if(m.x!=null){s=1
 break}m.J(new A.aBK(m))
 p=4
-h=A.dM("http://localhost:5000/questionnaire/start",0,null)
+h=A.dM("https://docparser-app.azurewebsites.net/questionnaire/start",0,null)
 g=t.N
 f=A.Z(["Content-Type","application/json"],g,g)
 s=7
@@ -95228,7 +95228,7 @@ break}if(B.b.jY(a1,new A.aBX())){m.J(new A.aBY(m))
 s=1
 break}m.J(new A.aBZ(m))
 p=7
-l=A.aXV("POST",A.dM("http://localhost:5000/upload",0,null))
+l=A.aXV("POST",A.dM("https://docparser-app.azurewebsites.net/upload",0,null))
 a2=m.x
 if(a2!=null)l.x.n(0,"questionnaireId",B.j.k(a2))
 for(k=0,a2=t.zb,a3=t.G5,a4=t.N,a5=a2.i("hI<1>");k<a1.length;++k){j=a1[k]
