@@ -100202,7 +100202,7 @@ return A.F($async$AS,r)},
 vL(a){return this.adM(a)},
 adM(a){var s=0,r=A.G(t.H),q,p
 var $async$vL=A.B(function(b,c){if(b===1)return A.D(c,r)
-for(;;)switch(s){case 0:p=A.d9("https://meerkat-bpcddrgqd3hrd5c6.centralindia-01.azurewebsites.net/output/"+a,0,null)
+for(;;)switch(s){case 0:p=A.d9("https://meerkat-bpcddrgqd3hrd5c6.centralindia-01.azurewebsites.net/download/"+a,0,null)
 s=3
 return A.y(A.aOG(p),$async$vL)
 case 3:if(!c){s=1
